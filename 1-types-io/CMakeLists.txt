@@ -1,0 +1,6 @@
+add_executable(Circle Circle.c)
+add_executable(Sphere Sphere.c)
+target_link_libraries(Sphere m)
+add_executable(Mol Mol.c)
+add_executable(admin admin.c)
+add_executable(admin-scanf admin-scanf.c)
